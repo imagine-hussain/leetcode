@@ -8,7 +8,7 @@ class Solution:
                 if cell == '1':
                     islands += 1
                     self.remove_island(grid, i, j)
-        return islans
+        return islands
 
     def remove_island(self, grid: List[List[str]], i: int, j: int) -> None:
         # Check out of bounds and not water
