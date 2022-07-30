@@ -8,10 +8,10 @@ class Solution:
                 if cell == '1':
                     islands += 1
                     self.remove_island(grid, i, j)
-        return islands
+        return islans
 
     def remove_island(self, grid: List[List[str]], i: int, j: int) -> None:
-        # Check out of bounds
+        # Check out of bounds and not water
         if (i < 0) or (j < 0) or (i >= len(grid)) or (j >= len(grid[0])) or grid[i][j] == '0':
             return;
         grid[i][j] = '0' # Invalidate
