@@ -40,12 +40,18 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/number-of-1-bits" target="_blank" rel="noopener noreferrer">Number of 1 Bits</a></li>
   <li><a href="https://leetcode.com/problems/longest-common-prefix" target="_blank" rel="noopener noreferrer">Longest Common Prefix</a></li>
   <li><a href="https://leetcode.com/problems/single-number" target="_blank" rel="noopener noreferrer">Single Number</a></li>
+
+### Medium Problems Start Here
+
   <li><a href="https://leetcode.com/problems/palindrome-linked-list" target="_blank" rel="noopener noreferrer">Palindrome Linked List</a></li>
   <li><a href="https://leetcode.com/problems/move-zeroes" target="_blank" rel="noopener noreferrer">Move Zeroes</a></li>
   <li><a href="https://leetcode.com/problems/symmetric-tree" target="_blank" rel="noopener noreferrer">Symmetric Tree</a></li>
   <li><a href="https://leetcode.com/problems/missing-number" target="_blank" rel="noopener noreferrer">Missing Number</a></li>
   <li><a href="https://leetcode.com/problems/palindrome-number" target="_blank" rel="noopener noreferrer">Palindrome Number</a></li>
   <li><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree" target="_blank" rel="noopener noreferrer">Convert Sorted Array to Binary Search Tree</a></li>
+
+## Week 2
+
   <li><a href="https://leetcode.com/problems/reverse-bits" target="_blank" rel="noopener noreferrer">Reverse Bits</a></li>
   <li><a href="https://leetcode.com/problems/subtree-of-another-tree" target="_blank" rel="noopener noreferrer">Subtree of Another Tree</a></li>
   <li><a href="https://leetcode.com/problems/squares-of-a-sorted-array" target="_blank" rel="noopener noreferrer">Squares of a Sorted Array</a></li>
@@ -67,6 +73,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/number-of-islands" target="_blank" rel="noopener noreferrer">Number of Islands</a></li>
   <li><a href="https://leetcode.com/problems/rotting-oranges" target="_blank" rel="noopener noreferrer">Rotting Oranges</a></li>
   <li><a href="https://leetcode.com/problems/search-in-rotated-sorted-array" target="_blank" rel="noopener noreferrer">Search in Rotated Sorted Array</a></li>
+
+## Week 3
+
   <li><a href="https://leetcode.com/problems/combination-sum" target="_blank" rel="noopener noreferrer">Combination Sum</a></li>
   <li><a href="https://leetcode.com/problems/permutations" target="_blank" rel="noopener noreferrer">Permutations</a></li>
   <li><a href="https://leetcode.com/problems/merge-intervals" target="_blank" rel="noopener noreferrer">Merge Intervals</a></li>
@@ -90,6 +99,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/minimum-height-trees" target="_blank" rel="noopener noreferrer">Minimum Height Trees</a></li>
   <li><a href="https://leetcode.com/problems/task-scheduler" target="_blank" rel="noopener noreferrer">Task Scheduler</a></li>
   <li><a href="https://leetcode.com/problems/lru-cache" target="_blank" rel="noopener noreferrer">LRU Cache</a></li>
+
+## Week 4
+
   <li><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst" target="_blank" rel="noopener noreferrer">Kth Smallest Element in a BST</a></li>
   <li><a href="https://leetcode.com/problems/daily-temperatures" target="_blank" rel="noopener noreferrer">Daily Temperatures</a></li>
   <li><a href="https://leetcode.com/problems/house-robber" target="_blank" rel="noopener noreferrer">House Robber</a></li>
@@ -110,6 +122,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/swap-nodes-in-pairs" target="_blank" rel="noopener noreferrer">Swap Nodes in Pairs</a></li>
   <li><a href="https://leetcode.com/problems/path-sum-ii" target="_blank" rel="noopener noreferrer">Path Sum II</a></li>
   <li><a href="https://leetcode.com/problems/longest-consecutive-sequence" target="_blank" rel="noopener noreferrer">Longest Consecutive Sequence</a></li>
+
+## Week 5
+
   <li><a href="https://leetcode.com/problems/rotate-array" target="_blank" rel="noopener noreferrer">Rotate Array</a></li>
   <li><a href="https://leetcode.com/problems/odd-even-linked-list" target="_blank" rel="noopener noreferrer">Odd Even Linked List</a></li>
   <li><a href="https://leetcode.com/problems/decode-string" target="_blank" rel="noopener noreferrer">Decode String</a></li>
@@ -129,6 +144,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/random-pick-with-weight" target="_blank" rel="noopener noreferrer">Random Pick with Weight</a></li>
   <li><a href="https://leetcode.com/problems/kth-largest-element-in-an-array" target="_blank" rel="noopener noreferrer">Kth Largest Element in an Array</a></li>
   <li><a href="https://leetcode.com/problems/maximal-square" target="_blank" rel="noopener noreferrer">Maximal Square</a></li>
+
+## Week 6
+
   <li><a href="https://leetcode.com/problems/rotate-image" target="_blank" rel="noopener noreferrer">Rotate Image</a></li>
   <li><a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal" target="_blank" rel="noopener noreferrer">Binary Tree Zigzag Level Order Traversal</a></li>
   <li><a href="https://leetcode.com/problems/design-hit-counter" target="_blank" rel="noopener noreferrer">Design Hit Counter</a></li>
@@ -144,6 +162,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/encode-and-decode-strings" target="_blank" rel="noopener noreferrer">Encode and Decode Strings</a></li>
   <li><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops" target="_blank" rel="noopener noreferrer">Cheapest Flights Within K Stops</a></li>
   <li><a href="https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree" target="_blank" rel="noopener noreferrer">All Nodes Distance K in Binary Tree</a></li>
+
+## Week 7
+
   <li><a href="https://leetcode.com/problems/3sum-closest" target="_blank" rel="noopener noreferrer">3Sum Closest</a></li>
   <li><a href="https://leetcode.com/problems/rotate-list" target="_blank" rel="noopener noreferrer">Rotate List</a></li>
   <li><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array" target="_blank" rel="noopener noreferrer">Find Minimum in Rotated Sorted Array</a></li>
@@ -151,6 +172,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/combination-sum-iv" target="_blank" rel="noopener noreferrer">Combination Sum IV</a></li>
   <li><a href="https://leetcode.com/problems/insert-delete-getrandom-o1" target="_blank" rel="noopener noreferrer">Insert Delete GetRandom O(1)</a></li>
   <li><a href="https://leetcode.com/problems/non-overlapping-intervals" target="_blank" rel="noopener noreferrer">Non-overlapping Intervals</a></li>
+
+### Hards Start Here
+
   <li><a href="https://leetcode.com/problems/minimum-window-substring" target="_blank" rel="noopener noreferrer">Minimum Window Substring</a></li>
   <li><a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree" target="_blank" rel="noopener noreferrer">Serialize and Deserialize Binary Tree</a></li>
   <li><a href="https://leetcode.com/problems/trapping-rain-water" target="_blank" rel="noopener noreferrer">Trapping Rain Water</a></li>
@@ -167,6 +191,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/longest-valid-parentheses" target="_blank" rel="noopener noreferrer">Longest Valid Parentheses</a></li>
   <li><a href="https://leetcode.com/problems/design-in-memory-file-system" target="_blank" rel="noopener noreferrer">Design In-Memory File System</a></li>
   <li><a href="https://leetcode.com/problems/employee-free-time" target="_blank" rel="noopener noreferrer">Employee Free Time</a></li>
+
+## Week 8
+
   <li><a href="https://leetcode.com/problems/word-search-ii" target="_blank" rel="noopener noreferrer">Word Search II</a></li>
   <li><a href="https://leetcode.com/problems/alien-dictionary" target="_blank" rel="noopener noreferrer">Alien Dictionary</a></li>
   <li><a href="https://leetcode.com/problems/bus-routes" target="_blank" rel="noopener noreferrer">Bus Routes</a></li>
