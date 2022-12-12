@@ -1,4 +1,8 @@
 
+void dfs(int **grid, int x, int y, int pre_replace, int post_replace)
+{
+    if ()
+}
 
 /**
  * Return an array of arrays of size *returnSize.
@@ -8,6 +12,11 @@
 int** floodFill(
     int** image, int imageSize, int* imageColSize, int sr, int sc, int color, int* returnSize, int** returnColumnSizes
 ){
-    int **grid = copyImg(image, imageSize, imageColSize);
+    if (image[sr][sc] == color)
+        return image;
+
+    dfs(image, sr, sc, image[sr][sc], color);
+    return image;
 }
+
 
