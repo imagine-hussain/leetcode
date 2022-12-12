@@ -1,3 +1,9 @@
+
+# LeetCode
+List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org/grind75?weeks=8&hours=19)
+
+## Done BeforeHand
+
 <ol>
   <li><a href="https://leetcode.com/problems/two-sum" target="_blank" rel="noopener noreferrer">Two Sum</a></li>
   <li><a href="https://leetcode.com/problems/valid-parentheses" target="_blank" rel="noopener noreferrer">Valid Parentheses</a></li>
@@ -19,6 +25,9 @@
   <li><a href="https://leetcode.com/problems/reverse-linked-list" target="_blank" rel="noopener noreferrer">Reverse Linked List</a></li>
   <li><a href="https://leetcode.com/problems/majority-element" target="_blank" rel="noopener noreferrer">Majority Element</a></li>
   <li><a href="https://leetcode.com/problems/add-binary" target="_blank" rel="noopener noreferrer">Add Binary</a></li>
+
+## Week 1
+
   <li><a href="https://leetcode.com/problems/diameter-of-binary-tree" target="_blank" rel="noopener noreferrer">Diameter of Binary Tree</a></li>
   <li><a href="https://leetcode.com/problems/middle-of-the-linked-list" target="_blank" rel="noopener noreferrer">Middle of the Linked List</a></li>
   <li><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree" target="_blank" rel="noopener noreferrer">Maximum Depth of Binary Tree</a></li>
