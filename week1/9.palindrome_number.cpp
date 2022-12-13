@@ -12,7 +12,6 @@ public:
 
         while (high > low) {
             if ((x/high) % 10 != (x/low) % 10) {
-                std::cout << "lo-hi" << low << "  " << high << std::endl;
                 return false;
             }
 
@@ -26,13 +25,11 @@ public:
     int highest_pow10_divisible(int x) {
         long long pow10 = 1;
         for (int i = 0; i < INT32_MAX; i++) {
-            if ((x / pow10) == 0) {
-                return pow10 / 10;
-            }
+            if ((x / pow10) == 0) return pow10 / 10;
             pow10 *= 10;
         }
 
-        return -1;
+        return -1; // Impossible
     }
 
 };
