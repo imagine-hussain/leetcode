@@ -40,9 +40,6 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/number-of-1-bits" target="_blank" rel="noopener noreferrer">Number of 1 Bits</a></li>
   <li><a href="https://leetcode.com/problems/longest-common-prefix" target="_blank" rel="noopener noreferrer">Longest Common Prefix</a></li>
   <li><a href="https://leetcode.com/problems/single-number" target="_blank" rel="noopener noreferrer">Single Number</a></li>
-
-### Medium Problems Start Here
-
   <li><a href="https://leetcode.com/problems/palindrome-linked-list" target="_blank" rel="noopener noreferrer">Palindrome Linked List</a></li>
   <li><a href="https://leetcode.com/problems/move-zeroes" target="_blank" rel="noopener noreferrer">Move Zeroes</a></li>
   <li><a href="https://leetcode.com/problems/symmetric-tree" target="_blank" rel="noopener noreferrer">Symmetric Tree</a></li>
@@ -55,6 +52,9 @@ List based off [Grind 72 @ 19hrs, 8 weeks](https://www.techinterviewhandbook.org
   <li><a href="https://leetcode.com/problems/reverse-bits" target="_blank" rel="noopener noreferrer">Reverse Bits</a></li>
   <li><a href="https://leetcode.com/problems/subtree-of-another-tree" target="_blank" rel="noopener noreferrer">Subtree of Another Tree</a></li>
   <li><a href="https://leetcode.com/problems/squares-of-a-sorted-array" target="_blank" rel="noopener noreferrer">Squares of a Sorted Array</a></li>
+
+### Medium Problems Start Here
+
   <li><a href="https://leetcode.com/problems/maximum-subarray" target="_blank" rel="noopener noreferrer">Maximum Subarray</a></li>
   <li><a href="https://leetcode.com/problems/insert-interval" target="_blank" rel="noopener noreferrer">Insert Interval</a></li>
   <li><a href="https://leetcode.com/problems/01-matrix" target="_blank" rel="noopener noreferrer">01 Matrix</a></li>
