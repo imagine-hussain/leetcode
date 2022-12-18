@@ -14,8 +14,7 @@ struct TreeNode {
 class Solution {
 public:
   bool isSymmetric(TreeNode *root) {
-    if (root == nullptr)
-      return true;
+    if (root == nullptr) return true;
 
     root->right = flipTree(root->right);
     return compareTrees(root->left, root->right);
@@ -35,9 +34,7 @@ public:
   }
 
   bool compareTrees(TreeNode *p, TreeNode *q) {
-    if (p == nullptr || q == nullptr)
-      return (p == nullptr && q == nullptr);
-    return (q->val == p->val) && compareTrees(p->left, q->left) &&
-           compareTrees(p->right, q->right);
+    if (p == nullptr || q == nullptr) return (p == nullptr && q == nullptr);
+    return (q->val == p->val) && compareTrees(p->left, q->left) && compareTrees(p->right, q->right);
   }
 };
