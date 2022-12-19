@@ -12,7 +12,8 @@ public:
 
         int cols = mat[0].size();
 
-        vector<vector<int>> dp(rows, vector<int>(cols, INT_MAX));
+        // upper bound for row, col is 10-000 -> max dist is 20_000
+        vector<vector<int>> dp(rows, vector<int>(cols, 20000));
 
         // From top--left -> bottom right
         for (int i = 0; i < rows; i++) {
