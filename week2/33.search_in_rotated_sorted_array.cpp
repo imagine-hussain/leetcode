@@ -6,7 +6,6 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
         int pivot = findPivot(nums, 0, nums.size() - 1);
-        cout << "pivot: " << pivot << endl;
         return (pivot != -1) ? bsearch(nums, target, 0, nums.size(), pivot) : -1;
     }
 private:
@@ -15,7 +14,6 @@ private:
         int mid = (lo + hi) / 2;
 
         if (mid == hi) return mid + 1;
-
         if (nums[mid] > nums[mid + 1]) return mid + 1;
 
         return (nums[mid] < nums[lo]) ?
@@ -27,11 +25,9 @@ private:
 
         int mid = (lo + hi) / 2;
         int realmid = (mid + pivot) % nums.size();
-        int midval = nums[realmid];
 
-        if (midval < target) return bsearch(nums, target, mid + 1, hi, pivot);
-        if (midval > target) return bsearch(nums, target, lo, mid - 1, pivot);
-
+        if (nums[realmid] < target) return bsearch(nums, target, mid + 1, hi, pivot);
+        if (nums[realmid] > target) return bsearch(nums, target, lo, mid - 1, pivot);
         return realmid;
     }
 };
