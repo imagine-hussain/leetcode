@@ -2,6 +2,11 @@ use crate::Solution;
 
 use std::{cmp, collections::HashSet};
 
+// enum Option {
+//     None,
+//     Some(___)
+// }
+
 impl Solution {
     pub fn three_sum(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
         let mut solutions: HashSet<(i32, i32, i32)> = HashSet::new();
@@ -11,11 +16,20 @@ impl Solution {
             two_sum(&nums[i..], &mut solutions);
         }
 
+        let mut x = String::from("hi");
+        print_str(&mut x);
+        print_str(&mut x);
+
         solutions
             .into_iter()
             .map(|(a, b, c)| vec![a, b, c])
             .collect()
     }
+}
+
+fn print_str(s: &mut str) {
+    println!("{}", s);
+    s.make_ascii_uppercase();
 }
 
 pub fn two_sum(nums: &[i32], solutions: &mut HashSet<(i32, i32, i32)>) {
