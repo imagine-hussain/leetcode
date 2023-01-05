@@ -6,9 +6,7 @@ use std::{vec::Vec, collections::HashSet};
 impl Solution {
     pub fn word_break(s: String, word_dict: Vec<String>) -> bool {
         let hset: HashSet<String> = vec_to_hash(word_dict);
-        let dp = init_graph(&s, &hset);
-
-        dfs(&dp)
+        dfs(&init_graph(&s, &hset))
     }
 
 }
