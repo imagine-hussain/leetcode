@@ -1,0 +1,42 @@
+#include <unordered_map>
+
+class LruNode {
+public:
+    LruNode* prev;
+    LruNode* next;
+    int value;
+}
+
+class LRUCache {
+public:
+    LRUCache(int capacity) {
+        this->capacity = capacity;
+        this->size = 0;
+        this->head = nullptr;
+        this->tail = nullptr;
+        this->nodemap = unordered_map<int, TreeNode*>();
+    }
+
+    int get(int key) {
+
+    }
+
+    void put(int key, int value) {
+
+    }
+
+private:
+    int capacity;
+    int size;
+    LruNode* head;
+    LruNode* tail;
+    unordered_set<int, TreeNode*> nodemap;
+
+};
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
