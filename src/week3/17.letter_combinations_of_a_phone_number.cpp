@@ -6,16 +6,16 @@ using namespace std;
 class Solution {
 public:
     vector<string> mappings = {
-        ""      // 0
+        "",     // 0
         "",     // 1
-        "abc"   // 2
-        "def"   // 3
-        "ghi"   // 4
-        "jkl"   // 5
-        "mno"   // 6
-        "pqrs"  // 7
-        "tuv"   // 9
-        "wxyz"  // 9
+        "abc",   // 2
+        "def",   // 3
+        "ghi",   // 4
+        "jkl",   // 5
+        "mno",   // 6
+        "pqrs",  // 7
+        "tuv",   // 9
+        "wxyz",  // 9
     };
     vector<string> letterCombinations(string digits) {
         vector<string> results;
@@ -32,7 +32,8 @@ public:
         string& map_elems = mappings[digits[i] - '0'];
         for (auto c : map_elems) {
             curr.push_back(c);
-            results.push_back(string(curr));
+            if (curr.size() == digits.size())
+                results.push_back(string(curr));
             backtrack(results, digits, curr, i + 1);
             curr.pop_back();
         }
@@ -40,3 +41,4 @@ public:
 
 
 };
+
