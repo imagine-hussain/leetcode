@@ -12,7 +12,7 @@ public:
 
 restart:
         while (start < n) {
-            for (int offset = 0; offset < n; offset++) {
+            for (int offset = 0; offset <= n; offset++) {
                 gas_left += gas[(start + offset) % n] - cost[(start + offset) % n];
                 if (gas_left < 0) {
                     gas_left = 0;
