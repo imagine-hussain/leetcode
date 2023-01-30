@@ -7,7 +7,6 @@ class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
         vector<int> sorted = top_sort(n, edges);
-
         return vector<int>();
     }
 

@@ -1,3 +1,4 @@
+#include <queue>
 /**
  * Definition for a binary tree node.
  */
@@ -12,14 +13,17 @@ struct TreeNode {
 class Solution {
 public:
     TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
-        if (root == nullptr) return nullptr;
 
-        if (root == p)
-            return root->right;
-        if (root->left == p)
-            return root;
-        if (root->right == p)
-            return root->right->right;
+        TreeNode* prev = nullptr;
+        while (root != nullptr) {
+            if (p->val >= root->val) {
+                root = root->right;
+            } else {
+                prev = root;
+                root = root->right;
+            }
+        }
 
+        return prev;
     }
 };
